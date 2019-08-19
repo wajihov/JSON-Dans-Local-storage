@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    hello
+    <table>
+        <tr>
+            <td>FirstName : </td>
+            <td><input type="text" id="idFirstName"></td>
+            <td><span id="repFirstName"></span></td>            
+        </tr>
+        <tr>
+            <td>LastName : </td>
+            <td><input type="text" id="idLastName"></td>
+            <td><span id="repLastName"></span></td>            
+        </tr>
+        <tr>
+            <td>Date de naissance : </td>
+            <td><input type="date" id="idDateNaissance"></td>
+            <td><span id="repUsername"></span></td>            
+        </tr>
+        <tr>
+            <td>E-mail : </td>
+            <td><input type="text" id="idMail"></td>
+            <td><span id="repMail"></span></td>            
+        </tr>
+        <tr>
+            <td>Password : </td>
+            <td><input type="text" id="idPassword"></td>
+            <td><span id="repPassword"></span></td>            
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td>
+                <!-- <input type="button" value="Click me" onclick="myFunction()"> -->
+                <input type="button" onclick="SaveData()" value="click me">
+                <input type="button" onclick="Annuler()" value="Annuler">
+            </td>
+        </tr>
+
+    </table>
+
+
+    <button onclick="localSt()" >localstorage</button>
+
+
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
